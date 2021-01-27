@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="text" id="row">
+<button onclick="rows()">Submit</button>
+<p id ="row"></p>
+
+<p id="demo"></p>
+
+<script>
+function rows(){
+var  row;
+row = document.getElementById("row").value;
+if(row == 3){
+    document.getElementById("demo").innerHTML = "*"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+""+"&nbsp;"+"&nbsp;"+"*"+""+"<br>"+
+    "*"+"*"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"*"+"*"+"<br>"+
+    "*"+"*"+"*"+"*"+"*"+"*"+"<br>"+
+    "*"+"*"+"*"+"*"+"*"+"*"+"<br>"+
+    "*"+"*"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"*"+"*"+"<br>"+
+    "*"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+"&nbsp;"+""+"&nbsp;"+"&nbsp;"+"*"+""+"<br>"
+    ;
+    }
+ }
+</script>
+
+</body>
+</html> 
